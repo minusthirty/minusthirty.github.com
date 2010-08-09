@@ -1,0 +1,88 @@
+body{
+  font-family: "raleway-1","raleway-2", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-weight:normal;
+  color: #eee;
+  background-color: black;
+  font-size: 2em;
+  margin: 0;
+}
+
+#container{
+  width: 730px;
+  height: 600px;
+  margin: auto auto;
+  background-image:url('background-text.jpg');
+  background-repeat:no-repeat;
+  background-position: top center;
+}
+
+a.button{
+  border: 0;
+  padding:0;
+  margin: 0;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  height:52px;
+  width:147px;
+  text-indent: -999px;
+}
+
+a.button span {
+	cursor: pointer;
+	display:block;
+	position:absolute;
+	top:0;
+	left:0px;
+	width:147px;
+	height:52px;
+}
+
+a.button:hover  span{
+	background-position:0 -51px;
+}
+
+a.work span { background: url(sprites/work-sprite.png)  no-repeat top left; }
+a.words span { background: url(sprites/words-sprite.png) no-repeat top left; }
+a.tweet span { background: url(sprites/tweet-sprite.png) no-repeat top left; }
+a.email span { background: url(sprites/email-sprite.png) no-repeat top left; }
+
+a.work{
+  left:100px;
+  top:130px;
+}
+
+a.words{
+  left:75px;
+  top:150px;
+}
+
+a.tweet{
+  left:50px;
+  top:170px;
+}
+
+a.email{
+  left:25px;
+  top:190px;
+}
+
+h1 {
+  letter-spacing:4px;
+  font-weight: normal;
+  font-size:2.5em;
+  line-height:1em;
+  position: absolute;
+  top: 440px;
+  width: 650px;
+  margin-left: 30px;
+  display:none;
+}
+
+h1 span.minus{
+  float:left;
+}
+
+h1 span.thirty{
+  float:right;
+}
