@@ -1,17 +1,17 @@
 body{
   font-family: "raleway-1","raleway-2", 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-weight:normal;
-  color: #eee;
+  color: #FFF;
   background-color: black;
   font-size: 2em;
   margin: 0;
 }
 
 #container{
-  width: 730px;
-  height: 600px;
+  width: 800px;
+  height: 700px;
   margin: auto auto;
-  background-image:url('background-text.jpg');
+  background-image:url('background.jpg');
   background-repeat:no-repeat;
   background-position: top center;
 }
@@ -20,12 +20,10 @@ a.button{
   border: 0;
   padding:0;
   margin: 0;
-  display: block;
   overflow: hidden;
-  position: relative;
-  height:52px;
-  width:147px;
-  text-indent: -999px;
+  position: right;
+  height:18px;
+  
 }
 
 a.button span {
@@ -38,34 +36,18 @@ a.button span {
 	height:52px;
 }
 
-a.button:hover  span{
-	background-position:0 -51px;
 }
 
-a.work span { background: url(sprites/work-sprite.png)  no-repeat top left; }
-a.words span { background: url(sprites/words-sprite.png) no-repeat top left; }
-a.tweet span { background: url(sprites/tweet-sprite.png) no-repeat top left; }
-a.email span { background: url(sprites/email-sprite.png) no-repeat top left; }
+a.external:link {color:#FFF; text-decoration: none;}    /* unvisited link */
+a.external:visited {color:#FFF; text-decoration: none;} /* visited link */
+a.external:hover {color:#DDD; text-decoration: none;}   /* mouse over link */
+a.external:active {color:#FFF; text-decoration: none;}  /* selected link */
 
-a.work{
-  left:100px;
-  top:130px;
-}
+a.work span { no-repeat top right; }
+a.words span {  no-repeat top right; }
+a.tweet span {  no-repeat top right; }
+a.email span {  no-repeat top right; }
 
-a.words{
-  left:75px;
-  top:150px;
-}
-
-a.tweet{
-  left:50px;
-  top:170px;
-}
-
-a.email{
-  left:25px;
-  top:190px;
-}
 
 h1 {
   letter-spacing:4px;
