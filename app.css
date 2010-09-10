@@ -33,6 +33,7 @@ h1{
 }
 
 h2{
+	font-family: "museo-sans-1","museo-sans-2";
 	font-size: 1em;
 	font-weight: 100;
 	text-align: center;
@@ -42,6 +43,7 @@ h2{
 
 /* Navigation */
 ul.nav{
+	font-family: "museo-sans-1","museo-sans-2";
 	float: right;
 	margin: 0px 40px 0 0;
 	font-weight: 100;
