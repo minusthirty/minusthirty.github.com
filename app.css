@@ -1,70 +1,63 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
 body{
-  font-family: "raleway-1","raleway-2", 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  font-weight:normal;
-  color: #FFF;
-  background-color: black;
-  font-size: 2em;
-  margin: 0;
+	font-size: 1.1em;
+	background-color: #000;	
+	font-family: helvetica, sans-serif;
+	font-weight: 100;
+	color: white;
 }
 
-#container{
-  width: 800px;
-  height: 700px;
-  margin: auto auto;
-  background-image:url('background.jpg');
-  background-repeat:no-repeat;
-  background-position: top center;
+.container{
+	width:733px;
+	height: 628px;
+	margin: 20px auto;
+	background-image: url(background.jpg);
+	background-repeat: no-repeat;
+	position: relative;
 }
 
-a.button{
-  border: 0;
-  padding:0;
-  margin: 0;
-  overflow: hidden;
-  position: right;
-  height:18px;
-  
+h1{
+	display: none;
 }
 
-a.button span {
-	cursor: pointer;
-	display:block;
-	position:absolute;
-	top:0;
-	left:0px;
-	width:147px;
-	height:52px;
+.footer{
+	width:733px;
+	height: 20px;
+	position: absolute;
+	bottom: 10px;
+	
 }
 
+h2{
+	font-size: 1em;
+	font-weight: 100;
+	text-align: center;
+	bottom: 0px;
+	
 }
 
-a.external:link {color:#FFF; text-decoration: none;}    /* unvisited link */
-a.external:visited {color:#FFF; text-decoration: none;} /* visited link */
-a.external:hover {color:#DDD; text-decoration: none;}   /* mouse over link */
-a.external:active {color:#FFF; text-decoration: none;}  /* selected link */
-
-a.work span { no-repeat top right; }
-a.words span {  no-repeat top right; }
-a.tweet span {  no-repeat top right; }
-a.email span {  no-repeat top right; }
-
-
-h1 {
-  letter-spacing:4px;
-  font-weight: normal;
-  font-size:2.5em;
-  line-height:1em;
-  position: absolute;
-  top: 440px;
-  width: 650px;
-  margin-left: 30px;
-  display:none;
+/* Navigation */
+ul.nav{
+	float: right;
+	margin: 0px 40px 0 0;
+	font-weight: 100;
 }
 
-h1 span.minus{
-  float:left;
+ul.nav li{
+	float: left;
+	list-style-type: none;
 }
 
-h1 span.thirty{
-  float:right;
+ul.nav li a{
+	padding: 5px;
+	text-decoration: none;
+	color: white;
+}
+
+ul.nav li a:hover{
+	color: #e6cf8a;
 }
