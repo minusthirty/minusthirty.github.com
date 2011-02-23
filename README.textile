@@ -1,0 +1,16 @@
+h1. Minus Thirty Design
+
+h2. Specializing in Mobile and Web Design
+
+h3. Tools
+
+* Photoshop
+* Illustrator
+* Indesign
+* Textmate
+
+
+h3. Tech
+
+* HTML
+* CSS
